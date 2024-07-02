@@ -145,7 +145,9 @@ R_H=\frac{E_y}{J_xB_x}(=-\frac{1}{ne})</script><p>横向磁阻表示在与电流
   <entry>
     <title>金属自由电子气体模型-1</title>
     <url>/2024/06/15/solid-physics/%E9%87%91%E5%B1%9E%E8%87%AA%E7%94%B1%E7%94%B5%E5%AD%90%E6%B0%94%E4%BD%93%E6%A8%A1%E5%9E%8B-1/</url>
-    <content><![CDATA[
+    <content><![CDATA[<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'],['\\(','\\)']]} }); </script> <script type="text/javascript" async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
+
+
   <div class="note-large blue">
     <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
       <p>写在前面</p>
@@ -313,6 +315,7 @@ m\frac{d\boldsymbol{v}(t)}{dt}=\boldsymbol{F}(t)-m\frac{\boldsymbol{v}(t)}{\tau}
 \sigma=\sigma_1+i\sigma_2=\frac{\sigma_0}{1+(\omega \tau )^2}+i\frac{\sigma_0\omega \tau}{1+(\omega \tau)^2}</script><p> 其中实际部分称为Drude谱，反映了和驱动场同相位，产生电阻，吸收能量、释放焦耳热，虚部是电感性的，反映了相位移动，当<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.186ex;" xmlns="http://www.w3.org/2000/svg" width="6.725ex" height="1.692ex" role="img" focusable="false" viewBox="0 -666 2972.6 748"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D714" d="M495 384Q495 406 514 424T555 443Q574 443 589 425T604 364Q604 334 592 278T555 155T483 38T377 -11Q297 -11 267 66Q266 68 260 61Q201 -11 125 -11Q15 -11 15 139Q15 230 56 325T123 434Q135 441 147 436Q160 429 160 418Q160 406 140 379T94 306T62 208Q61 202 61 187Q61 124 85 100T143 76Q201 76 245 129L253 137V156Q258 297 317 297Q348 297 348 261Q348 243 338 213T318 158L308 135Q309 133 310 129T318 115T334 97T358 83T393 76Q456 76 501 148T546 274Q546 305 533 325T508 357T495 384Z"></path></g><g data-mml-node="mi" transform="translate(622,0)"><path data-c="1D70F" d="M39 284Q18 284 18 294Q18 301 45 338T99 398Q134 425 164 429Q170 431 332 431Q492 431 497 429Q517 424 517 402Q517 388 508 376T485 360Q479 358 389 358T299 356Q298 355 283 274T251 109T233 20Q228 5 215 -4T186 -13Q153 -13 153 20V30L203 192Q214 228 227 272T248 336L254 357Q254 358 208 358Q206 358 197 358T183 359Q105 359 61 295Q56 287 53 286T39 284Z"></path></g><g data-mml-node="mo" transform="translate(1416.8,0)"><path data-c="3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path></g><g data-mml-node="mn" transform="translate(2472.6,0)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></svg></mjx-container>时，取极大值。</p>
 <p><a href="金属自由电子气体模型-1.pdf">下载链接</a></p>
 <embed src="./金属自由电子气体模型-1.pdf" width="100%" height="100%" type="application/pdf">
+
 ]]></content>
       <categories>
         <category>-&quot;固体物理&quot;</category>
