@@ -1,0 +1,10 @@
+node_modules/
+public/
+db.json
+.DS_Store
+.sites-runtime/
+.env
+.env.*
+!.env.example
+*.log
+

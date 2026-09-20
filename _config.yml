@@ -1,0 +1,59 @@
+# 网站内容与链接。外观配置见 _config.redefine.yml。
+title: Longtu Ma's
+subtitle: ''
+description: 'Physics study notes and random thoughts by Longtu Ma.'
+keywords:
+  - 固体物理
+  - 物理学习笔记
+  - LaTeX
+author: Longtu Ma
+language: en
+timezone: Asia/Shanghai
+url: https://longtu-ma.github.io
+root: /
+permalink: :year/:month/:day/:title/
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+new_post_name: :title.md
+default_layout: post
+post_asset_folder: true
+render_drafts: false
+future: false
+updated_option: date
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+per_page: 10
+pagination_dir: page
+default_category: uncategorized
+# 保留原来的 Latex 分类与标签地址，修正显示名称。
+category_map:
+  LaTeX: Latex
+tag_map:
+  LaTeX: Latex
+
+theme: redefine
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+include:
+  - .nojekyll
+skip_render:
+  - images/**
+  - '**/*.pdf'
+  - css/**
+  - vendor/**
+

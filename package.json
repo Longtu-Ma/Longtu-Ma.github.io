@@ -1,0 +1,36 @@
+{
+  "name": "longtu-ma-blog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Longtu Ma's Hexo blog, restored from the published site",
+  "engines": { "node": ">=22" },
+  "hexo": { "version": "7.2.0" },
+  "scripts": {
+    "build": "hexo clean && hexo generate",
+    "dev": "hexo server --ip 127.0.0.1",
+    "new": "hexo new",
+    "publish": "hexo publish",
+    "check": "node tools/check-site.cjs",
+    "test": "npm run build && npm run check"
+  },
+  "dependencies": {
+    "hexo": "7.2.0",
+    "hexo-generator-archive": "2.0.0",
+    "hexo-generator-category": "2.0.0",
+    "hexo-generator-index": "4.0.0",
+    "hexo-generator-tag": "2.0.0",
+    "hexo-generator-search": "2.4.3",
+    "hexo-renderer-ejs": "2.0.0",
+    "hexo-renderer-stylus": "3.0.1",
+    "hexo-server": "3.0.0",
+    "hexo-theme-redefine": "2.6.3",
+    "hexo-wordcount": "6.0.1",
+    "markdown-it": "14.1.0",
+    "markdown-it-texmath": "1.0.0",
+    "katex": "0.16.22"
+  },
+  "devDependencies": {
+    "cheerio": "1.0.0",
+    "turndown": "7.2.0"
+  }
+}
