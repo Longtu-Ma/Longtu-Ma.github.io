@@ -4,9 +4,9 @@ info:
   author: Longtu Ma
   url: https://longtu-ma.github.io
 defaults:
-  favicon: /images/redefine-favicon.svg
-  logo: /images/redefine-logo.svg
-  avatar: /images/redefine-avatar.svg
+  favicon: /images/longtu-ma-logo.png
+  logo: /images/longtu-ma-logo.png
+  avatar: /images/longtu-ma-logo.png
 colors:
   primary: '#A31F34'
   secondary: null
