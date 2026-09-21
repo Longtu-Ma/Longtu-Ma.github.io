@@ -210,4 +210,5 @@ inject:
   head:
     - <link rel="stylesheet" href="/vendor/katex/katex.min.css">
     - <link rel="stylesheet" href="/css/blog-custom.css">
+    - <script src="/js/manual-theme.js"></script>
   footer: []

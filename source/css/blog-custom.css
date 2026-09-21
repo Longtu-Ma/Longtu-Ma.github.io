@@ -21,3 +21,37 @@
   border: 1px solid var(--border-color);
   border-radius: 8px;
 }
+
+/* Persistent manual theme selector. The theme itself supplies the light/dark
+   color variables; these rules only style the small control we add. */
+.manual-theme-selector {
+  width: max-content;
+  display: inline-flex;
+  align-items: center;
+  gap: .2rem;
+  margin: .55rem 0 0;
+  padding: .2rem;
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  background: var(--background-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+}
+.manual-theme-selector button {
+  border: 0;
+  border-radius: 999px;
+  padding: .25rem .55rem;
+  color: var(--default-text-color);
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-size: .78rem;
+  line-height: 1.2;
+}
+.manual-theme-selector button[aria-pressed="true"] {
+  color: var(--background-color);
+  background: var(--primary-color);
+}
+.manual-theme-selector button:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
