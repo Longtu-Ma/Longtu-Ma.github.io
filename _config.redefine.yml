@@ -45,7 +45,7 @@ home_banner:
   enable: true
   style: fixed
   image:
-    light: /images/wallhaven-wqery6-light.webp
+    light: /images/longtu-bunny-light.webp
     dark: /images/wallhaven-wqery6-dark.webp
   title: Welcome to Longtu Ma's
   subtitle:

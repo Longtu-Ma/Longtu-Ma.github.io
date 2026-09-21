@@ -47,6 +47,12 @@
       document.body.classList.toggle("dark-mode", isDark);
       document.body.classList.toggle("light-mode", !isDark);
     }
+    // The theme's banner uses utility classes for this, but setting the
+    // display state explicitly keeps it in sync with the manual selector.
+    document.querySelectorAll(".home-banner-background img").forEach((image, index) => {
+      const visible = isDark ? index === 1 : index === 0;
+      image.style.setProperty("display", visible ? "block" : "none", "important");
+    });
     saveThemeStatus(mode);
     updateButtons(mode);
   };
@@ -75,6 +81,7 @@
   const installControl = () => {
     if (!document.body) return;
     bindThemeToggle();
+    applyMode(savedMode());
     if (document.getElementById(CONTROL_ID)) {
       updateButtons(savedMode());
       return;
